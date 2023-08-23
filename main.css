@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 16px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(248, 78, 106);;
+}
+button {
+    background-color: rgb(248, 78, 106);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    width: 80px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 640px;
+}
+
+form input {
+    margin: 8px 0;
+    padding: 4px;
+    width: 100%;
+    border: 1px solid #cccccc70;
+}
+
+form input:focus {
+    outline: 1px solid rgb(248, 78, 106);
+}
+
+.error {
+    color: #767676;
+}
+
+.form-campo {
+    padding: 6px 0;
+}
